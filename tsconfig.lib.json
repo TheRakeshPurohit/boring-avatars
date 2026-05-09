@@ -4,14 +4,15 @@
     "declarationDir": "build",
     "emitDeclarationOnly": false,
     "outDir": "build",
-    "module": "ESNext",
+    "module": "preserve",
     "target": "ES2019",
-    "moduleResolution": "Node",
+    "moduleResolution": "bundler",
     "jsx": "react-jsx",
     "esModuleInterop": true,
     "skipLibCheck": true,
     "strict": true,
-    "forceConsistentCasingInFileNames": true
+    "forceConsistentCasingInFileNames": true,
+    "rootDir": "./src/lib"
   },
   "include": [
     "src/lib"
